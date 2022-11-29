@@ -19,38 +19,42 @@ python 3.9 <br>
 
 ## Structure of code
 |_ single_population #single homogeneous population rwToT validation with lightgbm as base learner <br>
-  &nbsp;  |_delta # test the effect of termination rate<br>
-  &nbsp;  |_delta_direct_aggregation # test the performance without propagation<br>
-  &nbsp;  |_simulate_new_feature_example_fixed # test the effect of feature number and example number<br>
-  &nbsp;  |_simulate_new_noise_example_fixed # test the effect of noise level and example number<br>
-  &nbsp;  |_simulate_scaling # test the effect of feature scaling<br>
-  &nbsp;  |_simulation_noisefactor_feature # test the effect of noise level and feature number<br>
+  &nbsp;  |_ delta # test the effect of termination rate<br>
+  &nbsp;  |_ delta_direct_aggregation # test the performance without propagation<br>
+  &nbsp;  |_ simulate_new_feature_example_fixed # test the effect of feature number and example number<br>
+  &nbsp;  |_ simulate_new_noise_example_fixed # test the effect of noise level and example number<br>
+  &nbsp;  |_ simulate_scaling # test the effect of feature scaling<br>
+  &nbsp;  |_ simulation_noisefactor_feature # test the effect of noise level and feature number<br>
+<br>
 |_ single_population_dl #single homogeneous population rwToT validation with deep learning as base learner<br>
- &nbsp;   |_delta<br>
- &nbsp;   |_delta_direct_aggregation<br>
-  &nbsp;  |_simulate_new_feature_example_fixed<br>
- &nbsp;   |_simulate_new_noise_example_fixed<br>
- &nbsp;   |_simulate_scaling<br>
-  &nbsp;  |_simulation_noisefactor_feature<br>
+ &nbsp;   |_ delta<br>
+ &nbsp;   |_ delta_direct_aggregation<br>
+  &nbsp;  |_ simulate_new_feature_example_fixed<br>
+ &nbsp;   |_ simulate_new_noise_example_fixed<br>
+ &nbsp;   |_ simulate_scaling<br>
+  &nbsp;  |_ simulation_noisefactor_feature<br>
+  <br>
 |_ single_population_linear  #single homogeneous population rwToT validation with linear regression as base learner<br>
-  &nbsp;  |_delta<br>
-  &nbsp;  |_delta_direct_aggregation<br>
- &nbsp;   |_simulate_new_feature_example_fixed<br>
-  &nbsp;  |_simulate_new_noise_example_fixed<br>
- &nbsp;   |_simulate_scaling<br>
- &nbsp;   |_simulation_noisefactor_feature<br>
+  &nbsp;  |_ delta<br>
+  &nbsp;  |_ delta_direct_aggregation<br>
+ &nbsp;   |_ simulate_new_feature_example_fixed<br>
+  &nbsp;  |_ simulate_new_noise_example_fixed<br>
+ &nbsp;   |_ simulate_scaling<br>
+ &nbsp;   |_ simulation_noisefactor_feature<br>
+ <br>
 |_ single_population_svm #single homogeneous population rwToT validation with SVM as base learner<br>
- &nbsp;   |_delta<br>
- &nbsp;   |_delta_direct_aggregation<br>
- &nbsp;   |_simulate_new_feature_example_fixed<br>
-  &nbsp;  |_simulate_new_noise_example_fixed<br>
- &nbsp;   |_simulate_scaling<br>
- &nbsp;   |_simulation_noisefactor_feature<br>
+ &nbsp;   |_ delta<br>
+ &nbsp;   |_ delta_direct_aggregation<br>
+ &nbsp;   |_ simulate_new_feature_example_fixed<br>
+  &nbsp;  |_ simulate_new_noise_example_fixed<br>
+ &nbsp;   |_ simulate_scaling<br>
+ &nbsp;   |_ simulation_noisefactor_feature<br>
+ <br>
 |_ two population # two/heterogeneous population rwToT validation with lightGBM as base learner<br>
- &nbsp;   |_two_population_delta # test of the differences in termination rate<br>
- &nbsp;   |_two_population_example # test the difference in training and test examples<br>
- &nbsp;   |_two_population_noise # test the difference in feature noise levels<br>
- &nbsp;   |_two_population_scaling # test the difference in feature scaling.<br>
+ &nbsp;   |_ two_population_delta # test of the differences in termination rate<br>
+ &nbsp;   |_ two_population_example # test the difference in training and test examples<br>
+ &nbsp;   |_ two_population_noise # test the difference in feature noise levels<br>
+ &nbsp;   |_ two_population_scaling # test the difference in feature scaling.<br>
 
 
 ## Running the code
